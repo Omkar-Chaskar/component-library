@@ -1,0 +1,121 @@
+@import './Components/main.css';
+@import './Components/navi.css';
+@import './Components/sidebar.css';
+@import './Components/avatar.css';
+@import './Components/alert.css';
+@import './Components/badges.css';
+@import './Components/sakhi-components-display.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+:root {
+    --primary-color: #ecf1f3;
+    --primary-hover: #4fc3f1;
+    --secondary-hover: #248cf3;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 200.5%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,link {
+    cursor: pointer;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*------------Heading-------------*/
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-weight: 300; }
+  h1 { font-size: 48px; margin-bottom: 1.5rem;} 
+  h2 { font-size: 32px; margin-bottom: 1rem;}
+  h3 { font-size: 24px; margin-bottom: .8rem;}
+  h4 { font-size: 16px; margin-bottom: .6rem;}
+  h5 { font-size: 8px; margin-bottom: .4rem;}
+  h6 { font-size: 4px; margin-bottom: .2rem;}
+  
+  /* Larger than phablet */
+  @media (min-width: 550px) {
+    h1 { font-size: 56px; }
+    h2 { font-size: 48px; }
+    h3 { font-size: 40px; }
+    h4 { font-size: 32px; }
+    h5 { font-size: 24px; }
+    h6 { font-size: 16px; }
+  }
+  
+
+/*-------Text--------*/
+p {
+    margin-top: 0; }
+
+.p1  { font-size: 48px; } 
+.p2  { font-size: 32px; }
+.p3  { font-size: 24px; }
+.p4  { font-size: 16px; }
+.p5  { font-size: 8px; }
+
+/*-----Font Weight------*/
+
+.light { font-weight: 300;}
+.regular { font-weight: 400;}
+.semibold { font-weight: 600;}
+.bold { font-weight: 700;}
+.black { font-weight: 900;}
+
+/*----Spacing----*/
+
+.spacing-xs {letter-spacing: 4px;}
+.spacing-s {letter-spacing: 8px;}
+.spacing-m {letter-spacing: 12px;}
+.spacing-l {letter-spacing: 16px;}
+.spacing-xl {letter-spacing: 20px;}
+.spacing-xxl {letter-spacing: 24px;}
+
+/*-----Border Radius------*/
+
+.bordius-s {border-radius: 5px;}
+.bordius-m {border-radius: 10px;}
+.bordius-l {border-radius: 15px;}
+.bordius-full {border-radius: 999px;}
+
+
+/* Botton
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.button-primary {
+    color: var(--primary-color);
+    background-color: var(--primary-hover);
+    border: none;
+    padding: .1rem .06rem;
+    font-size: 21px;
+    margin: 0.5rem 0.2rem;
+    width: 6rem;
+}
+
+.button-primary:hover {
+    background-color: var(--secondary-hover);
+}
+
+
