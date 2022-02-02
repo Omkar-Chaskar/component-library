@@ -3,16 +3,16 @@
     position: relative;
     top: 15vh;
     margin: 0 25%;
+    text-align: center;
 }
 
-ul {
-    list-style: none;
+.ul-flex-center {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-li {
+.li-center {
     justify-content: center;
 }
 
@@ -36,4 +36,17 @@ pre > code {
 
 .header-init {
     color: var(--primary-hover);
+}
+
+.button-cust {
+    padding: .1rem .06rem;
+    margin: 0.3rem 0.2rem;
+}
+
+.doc-container {
+    margin-left: 195px;
+    border-left: 2px solid var(--secondary-color);
+    height: max-content;
+    padding: 0.5rem;
+    line-height: 0.3rem;
 }

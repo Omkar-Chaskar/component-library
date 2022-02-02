@@ -1,0 +1,43 @@
+.sidebar-nav {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar-nav-list li {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.sidebar-nav-list a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.sidebar-nav-list a:active {
+    background-color: var(--primary-hover);
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar-nav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar-nav-contain {
+        display: flex;
+    }
+}
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
