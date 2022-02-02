@@ -50,3 +50,10 @@ pre > code {
     padding: 0.5rem;
     line-height: 0.3rem;
 }
+
+@media screen and (max-width: 700px) {
+    .doc-container {
+        margin: 0;
+        border-left: none;
+    }
+}
