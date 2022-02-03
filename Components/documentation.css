@@ -1,9 +1,9 @@
 
 .doc-container {
     margin-left: 195px;
-    border-left: 2px solid var(--secondary-color);
     height: max-content;
     padding: 0.5rem;
+    border-left: 2px solid var(--secondary-color);
 }
 
 code {
@@ -33,7 +33,7 @@ pre > code {
 
     code {
         width: 100%;
-        
+
     }
 
     pre > code {
