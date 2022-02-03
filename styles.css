@@ -4,6 +4,7 @@
 @import './Components/avatar.css';
 @import './Components/alert.css';
 @import './Components/badges.css';
+@import './Components/documentation.css';
 
 * {
     margin: 0;
