@@ -13,28 +13,28 @@
 
   /*   Avatar size    */
   .avatar-xs {
-    width: 50px;
-    height: 50px;
+    width: 2rem;
+    height: 2rem;
   }
   
   .avatar-s {
-    width: 60px;
-    height: 60px;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   
   .avatar-m {
-    width: 70px;
-    height: 70px;
+    width: 3rem;
+    height: 3rem;
   }
   
   .avatar-l {
-    width: 80px;
-    height: 80px;
+    width: 3.5rem;
+    height: 3.5rem;
   }
   
   .avatar-xl {
-    width: 90px;
-    height: 90px;
+    width: 4rem;
+    height: 4rem;
   }
   
 
@@ -47,25 +47,25 @@
  /*   Avatar Border    */
   
   .border-dark {
-    border: 1px solid #000;
+    border: 2px solid #000;
   }
   
   .border-warning {
-    border: 1px solid yellow;
+    border: 2px solid yellow;
   }
   
   .border-success {
-    border: 1px solid green;
+    border: 2px solid green;
   }
   
   .border-danger {
-    border: 1px solid red;
+    border: 2px solid red;
   }
   
   .border-info {
-    border: 1px solid blue;
+    border: 2px solid blue;
   }
   
   .border-white {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
   }
