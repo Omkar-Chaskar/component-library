@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+.flex {display: flex;}
+.center {justify-content: center;}
+.space-around {justify-content: space-around;}
+
 .ul-flex-center {
     display: flex;
     justify-content: center;
