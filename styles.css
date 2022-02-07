@@ -2,11 +2,8 @@
 @import './Components/navi.css';
 @import './Components/sidebar.css';
 @import './Components/button.css';
-<<<<<<< Updated upstream
 @import './Components/badge.css';
-=======
 @import './Components/avatar.css';
->>>>>>> Stashed changes
 @import './Components/alert.css';
 @import './Components/avatar.css';
 @import './Components/documentation.css';
@@ -151,41 +148,3 @@ p { margin-top: 0; }
 .bordius-m {border-radius: 10px;}
 .bordius-l {border-radius: 15px;}
 .bordius-full {border-radius: 999px;}
-<<<<<<< Updated upstream
-
-
-/* Botton
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-  
-.button {
-      font-size: 0.8rem;
-      width: 6rem;
-      outline: none;
-}
-
-.button-primary {
-    color: var(--primary-color);
-    background-color: var(--primary-hover);
-}
-
-.button-primary:hover {
-    background-color: var(--secondary-hover);
-}
-
-.button-secondary {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-}
-
-.button-secondary:hover {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-}
-=======
->>>>>>> Stashed changes
