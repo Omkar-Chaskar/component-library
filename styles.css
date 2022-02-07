@@ -1,9 +1,10 @@
 @import './Components/main.css';
 @import './Components/navi.css';
 @import './Components/sidebar.css';
-@import './Components/avatar.css';
+@import './Components/button.css';
+@import './Components/badge.css';
 @import './Components/alert.css';
-@import './Components/badges.css';
+@import './Components/avatar.css';
 @import './Components/documentation.css';
 
 * {
@@ -84,7 +85,7 @@ a {
 
 ul {list-style: none;}
 
-button,link {
+button,a {
     cursor: pointer;
 }
 
@@ -151,10 +152,16 @@ p {
 /* Botton
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.button {
+button {
     border: none;
-    font-size: 21px;
-    width: 6rem;
+    outline: none;
+    cursor: pointer;
+}
+  
+.button {
+      font-size: 0.8rem;
+      width: 6rem;
+      outline: none;
 }
 
 .button-primary {
