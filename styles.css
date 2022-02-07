@@ -3,6 +3,7 @@
 @import './Components/sidebar.css';
 @import './Components/button.css';
 @import './Components/badge.css';
+@import './Components/avatar.css';
 @import './Components/alert.css';
 @import './Components/avatar.css';
 @import './Components/documentation.css';
@@ -96,6 +97,7 @@ button,a {
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     font-weight: 300; }
+    
   h1 { font-size: 48px; margin-bottom: 1.5rem;} 
   h2 { font-size: 32px; margin-bottom: 1rem;}
   h3 { font-size: 24px; margin-bottom: .8rem;}
@@ -115,8 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   
 
 /*-------Text--------*/
-p {
-    margin-top: 0; }
+p { margin-top: 0; }
 
 .p1  { font-size: 48px; } 
 .p2  { font-size: 32px; }
@@ -147,38 +148,3 @@ p {
 .bordius-m {border-radius: 10px;}
 .bordius-l {border-radius: 15px;}
 .bordius-full {border-radius: 999px;}
-
-
-/* Botton
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-  
-.button {
-      font-size: 0.8rem;
-      width: 6rem;
-      outline: none;
-}
-
-.button-primary {
-    color: var(--primary-color);
-    background-color: var(--primary-hover);
-}
-
-.button-primary:hover {
-    background-color: var(--secondary-hover);
-}
-
-.button-secondary {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-}
-
-.button-secondary:hover {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-}

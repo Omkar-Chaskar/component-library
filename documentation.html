@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//fonts.googleapis.com/css2?family=Material+Icons+Outlined&v=1643992909648"
-      rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Material+Icons+Outlined&amp;v=1644152679482" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="custome.css">
     <title>Ratha.css documentation</title>
@@ -13,14 +12,14 @@
 <body>
     <nav class="sidebar-nav">
         <ul class="sidebar-nav-contain">
-            <li class="sidebar-nav-list button"><a class="button-secondary" href="./index.html">Home</a></li>
-            <li class="sidebar-nav-list button"><a class="button-secondary" href="#avatar">Avatar</a></li>
-            <li class="sidebar-nav-list button"><a class="button-secondary" href="#alert">Alert</a></li>
-            <li class="sidebar-nav-list button"><a class="button-secondary" href="#badge">Badge</a></li>
-            <li class="sidebar-nav-list button"><a class="button-secondary" href="#button">Button</a></li>
-            <li class="sidebar-nav-list button"><a class="button-secondary" href="#card">Card</a></li>
-            <li class="sidebar-nav-list button"><a class="button-secondary" href="#image">Image</a></li>
-            <li class="sidebar-nav-list button"><a class="button-secondary" href="#input">Input</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="./index.html">Home</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#avatar">Avatar</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#alert">Alert</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#badge">Badge</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#button">Button</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#card">Card</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#image">Image</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#input">Input</a></li>
         </ul>
     </nav>
     <hr>
@@ -74,7 +73,7 @@
                 <p class="p3 bold">Border avatar</p>
                 <div class="flex space-around">
                     <div class="avatar avatar-xs border-dark"><img class="avatar-img" src="./image/hero-1.jpg" alt="round avatar 50*50"></div>
-                    <div class="avatar avatar-s border-white"><img class="avatar-img"src="./image/hero-2.jpg" alt="round avatar 60*60"></div>
+                    <div class="avatar avatar-s border-dark"><img class="avatar-img"src="./image/hero-2.jpg" alt="round avatar 60*60"></div>
                     <div class="avatar avatar-m border-danger"><img class="avatar-img"src="./image/hero-3.jpg" alt="round avatar 70*70"></div>
                     <div class="avatar avatar-l border-success"><img class="avatar-img"src="./image/hero-4.jpg" alt="round avatar 80*80"></div>
                     <div class="avatar avatar-xl border-info"><img class="avatar-img"src="./image/hero-5.jpg" alt="round avatar 90*90"></div>
@@ -82,7 +81,7 @@
                 <pre>
                     <code>/*Border Avatar*/
 &ltdiv class="avatar avatar-xs border-dark"&gt&ltimg class="avatar-img" src="./image/hero-1.jpg" alt="round avatar 50*50"&gt&lt/div&gt
-&ltdiv class="avatar avatar-s border-white"&gt&ltimg class="avatar-img"src="./image/hero-2.jpg" alt="round avatar 60*60"&gt&lt/div&gt
+&ltdiv class="avatar avatar-s border-dark"&gt&ltimg class="avatar-img"src="./image/hero-2.jpg" alt="round avatar 60*60"&gt&lt/div&gt
 &ltdiv class="avatar avatar-m border-danger"&gt&ltimg class="avatar-img"src="./image/hero-3.jpg" alt="round avatar 70*70"&gt&lt/div&gt
 &ltdiv class="avatar avatar-l border-success"&gt&ltimg class="avatar-img"src="./image/hero-4.jpg" alt="round avatar 80*80"&gt&lt/div&gt
 &ltdiv class="avatar avatar-xl border-info"&gt&ltimg class="avatar-img"src="./image/hero-5.jpg" alt="round avatar 90*90"&gt&lt/div&gt
@@ -117,7 +116,7 @@
                 <div class="alert alert-info">
                     <p>This is a info alert—check it out!<span class="material-icons-outlined">close</span></p>
                 </div>
-                <div class="alert alert-white">
+                <div class="alert alert-dark">
                     <p>This is a white alert—check it out!<span class="material-icons-outlined">close</span></p>
                 </div>
                 <div class="alert alert-dark">
@@ -158,7 +157,7 @@ $ltdiv class="alert alert-info"&gt
 $lt/div&gt
 
 /*White Alert*/
-$ltdiv class="alert alert-white"&gt
+$ltdiv class="alert alert-dark"&gt
     $ltp&gtThis is a white alert—check it out!$ltspan class="material-icons-outlined"&gtclose$lt/span&gt$lt/p&gt
 $lt/div&gt
 
@@ -234,12 +233,45 @@ $lt/div&gt
         </section>
         <section class="button-component" id="button">
             <div class="doc-header-container">
-                <h2 class="doc-header">Sample-text</h2>
+                <h2 class="doc-header">Button</h2>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p3">The HTML element represents a clickable button, used to submit ... the user agent runs on, but you can change buttons' appearance with CSS</p>
+                <div class="button-container">
+                    <button class="button">Button</button>
+                    <button class="button button-primary">Primary Button</button>
+                    <button class="button button-secondary">Secondary Button</button>
+                    <button class="button button-icon"><span class="material-icons-outlined icon">home</span>Text Icon Button</button>
+                    <button class="button button-disable button-primary" disabled>Disable</button>
+                    <button class="button button-danger">Delete</button>
+                    <button class="button button-success">Success</button>
+                    <button class="button button-info">Info</button>
+                    <button class=" button-icon button-primary button-round"><span class="material-icons-outlined icon">add</span></button>
+                    <a class="link button" href="#">Link-button</a>
+                  </div>
                 <pre>
-                    <code>&lt this is code &gt</code>
+                    <code>/*Button Component*/
+/*Default Button*/
+&ltbutton class="button"&gtButtonv/button&gt
+/*Primary Button*/
+&ltbutton class="button button-primary"&gtPrimary Button&lt/button&gt
+/*Secondary Button*/
+&ltbutton class="button button-secondary"&gtSecondary Button&lt/button&gt
+/*Text with Icon Button*/
+&ltbutton class="button button-icon"&gt&ltspan class="material-icons-outlined icon"&gthome&lt/span&gtText Icon Button&lt/button&gt
+/*Disable Button*/
+&ltbutton class="button button-disable button-primary" disabled&gtDisable&lt/button&gt
+/*Danger Button*/
+&ltbutton class="button button-danger"&gtDelete&lt/button&gt
+/*Success Button*/
+&ltbutton class="button button-success"&gtSuccess&lt/button&gt
+/*Info Button*/
+&ltbutton class="button button-info"&gtInfo&lt/button&gt
+/*Fluid Button*/
+&ltbutton class="button-icon button-primary button-round"&gt&ltspan class="material-icons-outlined icon"&gtadd&lt/span&gt&lt/button&gt
+/*Link Button*/
+&lta class="link button" href="#"L&gtink-button&lt/a&gt
+                    </code>
                 </pre>
             </div>
             <hr>
