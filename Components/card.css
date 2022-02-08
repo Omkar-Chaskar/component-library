@@ -1,0 +1,143 @@
+.card {
+  width: 10rem;
+  height: max-content;
+  border: 1px solid rgb(230, 224, 224);
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card-shadow {
+  font-size: inherit;
+  box-shadow: 5px 5px rgb(196, 192, 192);
+}
+
+.card-badge {
+  color: rgb(253, 253, 253);
+  font-weight: 500;
+  font-size: inherit;
+}
+
+.badge-up-left-corner {
+position: absolute;
+top : 5px;
+left: 5px;
+}
+
+.badge-up-right-corner {
+position: absolute;
+top : 5px ;
+right: 5px;
+}
+
+.card-badge:hover {
+  background-color: rgb(236, 91, 91);
+  border-radius: 50%;
+}
+
+.card__primary-action  {
+  display: flex;
+  position: relative;
+}
+
+.card__primary-action-column {
+  flex-direction: column;
+}
+
+.card__primary-action-row {
+  flex-direction: row;
+}
+
+.card__media-column {
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__media-row {
+  width: inherit;
+  height: auto;
+  border-radius: 5px 0 0 0;
+}
+
+.card__primary , .card__secondary{
+  display: block;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.card-text-over {
+  position: absolute;
+  color: #fff;
+}
+
+.text-bottom {
+  position: absolute;
+  top: 60%;
+}
+
+.text-center {
+  position: absolute;
+  top : 25%;
+}
+
+.card__secondary--space {
+  padding: 0.5rem 0.5rem;
+}
+
+.card__secondary {
+  font-size: 0.5em;
+}
+
+.card__title {
+  font-size: 1rem;
+}
+
+.card__subtitle {
+  font-size: 0.5rem;
+}
+
+.card__actions {
+  display: flex;
+  flex: 3rem wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-button {
+  color: rgb(108, 108, 110);
+  font-weight: 600;
+  font-size: 0.6em;
+}
+
+.icon-button {
+  border-radius: 50%;
+  font-size: 0.7rem;
+  margin: 4px 2px;
+  position: relative;
+  top : 5px;
+}
+
+.card-hover:hover {
+  background-color:rgb(231, 229, 229);
+}
+
+.card-button:active {
+  background-color:rgb(27, 27, 27);
+  color: #fff;
+}
+
+.card-button , .icon-button{
+  background-color: transparent;
+}
+
+.button-container {
+  justify-content: center;
+  align-items: center;
+}

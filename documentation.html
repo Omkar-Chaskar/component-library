@@ -278,12 +278,329 @@ $lt/div&gt
         </section>
         <section class="card-component" id="card">
             <div class="doc-header-container">
-                <h2 class="doc-header">Sample-text</h2>
+                <h2 class="doc-header">Card</h2>
             </div>
             <div class="doc-body-container">
                 <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <br>
+                <p class="p3">Vertical Card</p>
+                <div class="button-container">
+    <div class="card card-basic">
+			<div class="card__primary-action card__primary-action-column card-hover">
+				<div class="card__media-column  card-hover">
+       <img class="card-img" src="https://images.unsplash.com/photo-1642978277577-83c6ceac4820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwM3x0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt="">
+        </div>
+				<div class="card__primary card-hover">
+					<h2 class="card__title">Our Changing Planet</h2>
+					<h3 class="card__subtitle">by Kurt Wagner</h3>
+				</div>
+        <div class="card__secondary">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+			</div>
+			<div class="card__actions">
+				<div class="card__action-buttons">
+					<button class="card-button  card-hover">  <span class="mdc-button__ripple"></span> Read</button>
+					<button class="card-button  card-hover">  <span class="mdc-button__ripple"></span> Bookmark</button>
+				</div>
+				<div class="card__action-icons">
+					<button class="icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+						<ion-icon name="heart-outline"></ion-icon>
+					</button>
+					<button class="icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+					<button class="icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+				</div>
+			</div>
+		</div>
+                </div>
                 <pre>
-                    <code>&lt this is code &gt</code>
+                    <code>/*Vertical Card*/
+&ltdiv class="card"&gt
+&ltdiv class="card__primary-action"&gt
+&ltdiv class="card__media-column"&gt
+&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&lt/div&gt
+&ltdiv class="card__primary card-text-over text-center"&gt
+&lth2 class="card__title">Our Changing Planet&lt/h2&gt
+&lth3 class="card__subtitle">by Kurt Wagner&lt/h3&gt
+&lt/div&gt
+&ltdiv class="card__secondary card-hover card__secondary--space"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&lt/div&gt
+&ltdiv class="card__actions"&gt
+&ltdiv class="card__action-buttons"&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Read&lt/button&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
+&lt/div&gt
+&ltdiv class="card__action-icons"&gt
+&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
+&lt/button&gt
+&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&lt/div&gt
+&lt/div&gt
+                    </code>
+                </pre>
+
+                <p class="p3">Card with Test Overlay</p>
+                <div class="button-container">
+                    <div class="card card-text-over-media-variant">
+                        <div class="card__primary-action card__primary-action-column ">
+                            <div class="card__media-column">
+                      <img class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt="">
+                    <div class="card__primary card-text-over text-center">
+                                <h2 class="card__title">Our Changing Planet</h2>
+                                <h3 class="card__subtitle">by Kurt Wagner</h3>
+                            </div>
+                    </div>
+                    <div class="card__secondary card-hover card__secondary--space">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                        </div>
+                        <div class="card__actions">
+                            <div class="card__action-buttons">
+                                <button class="card-button card-hover">  <span class="mdc-button__ripple"></span> Read</button>
+                                <button class="card-button card-hover">  <span class="mdc-button__ripple"></span> Bookmark</button>
+                            </div>
+                            <div class="card__action-icons">
+                                <button class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                                <button class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+                                <button class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <pre>
+                    <code>/*Card With Text Over*/
+&ltdiv class="card"&gt
+&ltdiv class="card__primary-action"&gt
+&ltdiv class="card__media-column"&gt
+&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&ltdiv class="card__primary card-text-over text-center"&gt
+&lth2 class="card__title">Our Changing Planet&lt/h2&gt
+&lth3 class="card__subtitle">by Kurt Wagner&lt/h3&gt
+&lt/div&gt
+&lt/div&gt
+&ltdiv class="card__secondary card-hover card__secondary--space"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&lt/div&gt
+&ltdiv class="card__actions"&gt
+&ltdiv class="card__action-buttons"&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Read&lt/button&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
+&lt/div&gt
+&ltdiv class="card__action-icons"&gt
+&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
+&lt/button&gt
+&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&lt/div&gt
+&lt/div&gt
+                    </code>
+                </pre>
+
+                <p class="p3">Card With Shadow</p>
+                <div class="button-container">
+                    <div class="card card-shadow">
+                        <div class="card__primary-action card__primary-action-row">
+                            <div class="card__media-row">
+                    <img class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt="">
+                    </div>
+                            <div class="card__primary card-hover">
+                                <h2 class="card__title">Our Changing Planet</h2>
+                                <h3 class="card__subtitle">by Kurt Wagner</h3>
+                            </div>
+                        </div>
+                        <div class="card__actions">
+                            <div class="card__action-buttons">
+                                <button class="card-button card-hover">  <span class="mdc-button__ripple"></span> Read</button>
+                                <button class="card-button card-hover">  <span class="mdc-button__ripple"></span> Bookmark</button>
+                            </div>
+                            <div class="card__action-icons">
+                                <button class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                        <ion-icon name="heart"></ion-icon>
+                                </button>
+                                <button class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+                                <button class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <pre>
+                    <code>/*Card With Shadow*/
+&ltdiv class="card card-shadow"&gt
+&ltdiv class="card__primary-action card__primary-action-row"&gt
+&ltdiv class="card__media-row"&gt
+&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&lt/div&gt
+&ltdiv class="card__primary card-hover"&gt
+&lth2 class="card__title"&gtOur Changing Planet&lt/h2&gt
+&lth3 class="card__subtitle"&gtby Kurt Wagner&lt/h3&gt
+&lt/div&gt
+&lt/div&gt
+&ltdiv class="card__actions"&gt
+&ltdiv class="card__action-buttons"&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Read&lt/button&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
+&lt/div&gt
+&ltdiv class="card__action-icons"&gt
+&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltion-icon name="heart"&gt&lt/ion-icon&gt
+&lt/button&gt
+&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&lt/div&gt
+&lt/div&gt
+&lt/div&gt
+                    </code>
+                </pre>
+
+                <p class="p3">Card with Dismiss</p>
+                <div class="button-container">
+                    <div class="card card-basic">
+                        <div class="card__primary-action card__primary-action-column card-hover">
+                    <ion-icon name="close-outline" class="badge-up-right-corner card-badge"></ion-icon>
+                            <div class="card__media-column  card-hover">
+                    <img class="card-img" src="https://images.unsplash.com/photo-1643391537211-2b920295cf86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80;" alt="">
+                            </div>
+                            <div class="card__primary card-hover">
+                                <h2 class="card__title">Our Changing Planet</h2>
+                                <h3 class="card__subtitle">by Kurt Wagner</h3>
+                            </div>
+                    <div class="card__secondary">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                        </div>
+                        <div class="card__actions">
+                            <div class="card__action-buttons">
+                                <button class="card-button  card-hover">  <span class="mdc-button__ripple"></span> Read</button>
+                                <button class="card-button  card-hover">  <span class="mdc-button__ripple"></span> Bookmark</button>
+                            </div>
+            
+                            <div class="card__action-icons">
+                                <button class="icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                                <button class="icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+                                <button class="icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+                <pre>
+                    <code>/*Card with Dismiss*/
+&ltdiv class="card"&gt
+&ltdiv class="card__primary-action"&gt
+&ltion-icon name="close-outline" class="badge-up-right-corner card-badge"&gt&lt/ion-icon&gt
+&ltdiv class="card__media-column"&gt
+&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&lt/div&gt
+&ltdiv class="card__primary card-text-over text-center"&gt
+&lth2 class="card__title">Our Changing Planet&lt/h2&gt
+&lth3 class="card__subtitle">by Kurt Wagner&lt/h3&gt
+&lt/div&gt
+&ltdiv class="card__secondary card-hover card__secondary--space"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&lt/div&gt
+&ltdiv class="card__actions"&gt
+&ltdiv class="card__action-buttons"&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Read&lt/button&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
+&lt/div&gt
+&ltdiv class="card__action-icons"&gt
+&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
+&lt/button&gt
+&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&lt/div&gt
+&lt/div&gt 
+                    </code>
+                </pre>
+
+                <p class="p3">Card with Badges</p>
+                <div class="button-container">
+                    <div class="card card-basic">
+ 
+                        <div class="card__primary-action card__primary-action-column">
+                    <ion-icon name="arrow-back-outline" class="badge-up-left-corner card-badge"></ion-icon>
+                    <ion-icon name="heart-circle-outline" class="badge-up-right-corner card-badge"></ion-icon>
+                            <div class="card__media-column  card-hover">
+                    <img class="card-img" src="https://images.unsplash.com/photo-1635068939060-4ba51e435cf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80;" alt="">
+                    </div>
+                            <div class="card__primary card-hover">
+                                <h2 class="card__title">Our Changing Planet</h2>
+                                <h3 class="card__subtitle">by Kurt Wagner</h3>
+                            </div>
+                    <div class="card__secondary">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                        </div>
+                        <div class="card__actions">
+                            <div class="card__action-buttons">
+                                <button class="card-button  card-hover">  <span class="mdc-button__ripple"></span> Read</button>
+                                <button class="card-button  card-hover">  <span class="mdc-button__ripple"></span> Bookmark</button>
+                            </div>
+            
+                            <div class="card__action-icons">
+                                <button class="icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                                <button class="icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+                                <button class="icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <pre>
+                    <code>/*Card with Badges*/
+&ltdiv class="card"&gt
+&ltdiv class="card__primary-action card__primary-action-column"&gt
+&ltion-icon name="arrow-back-outline" class="badge-up-left-corner card-badge"&gt&lt/ion-icon&gt
+&ltion-icon name="heart-circle-outline" class="badge-up-right-corner card-badge"&gt&lt/ion-icon&gt
+&ltdiv class="card__media-column"&gt
+&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&lt/div&gt
+&ltdiv class="card__primary card-text-over text-center"&gt
+&lth2 class="card__title">Our Changing Planet&lt/h2&gt
+&lth3 class="card__subtitle">by Kurt Wagner&lt/h3&gt
+&lt/div&gt
+&ltdiv class="card__secondary card-hover card__secondary--space"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&lt/div&gt
+&ltdiv class="card__actions"&gt
+&ltdiv class="card__action-buttons"&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Read&lt/button&gt
+&ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
+&lt/div&gt
+&ltdiv class="card__action-icons"&gt
+&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
+&lt/button&gt
+&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&lt/div&gt
+&lt/div&gt    
+                    </code>
+                </pre>
+
+                <p class="p3">Text only card</p>
+                <div class="button-container">
+                    <div class="card card-basic">
+                        <div class="card__primary-action card__primary-action-column card-hover">
+                            <div class="card__primary card-hover">
+                                <h2 class="card__title">Our Changing Planet</h2>
+                                <h3 class="card__subtitle">by Kurt Wagner</h3>
+                            </div>
+                    <div class="card__secondary">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                        </div>
+                    </div>
+                </div>
+                <pre>
+                    <code>/*Text only card*/
+&ltdiv class="card card-basic"&gt
+&ltdiv class="card__primary-action card__primary-action-column card-hover"&gt
+&ltdiv class="card__primary card-hover"&gt
+&lth2 class="card__title"&gtOur Changing Planet&lt/h2&gt
+&lth3 class="card__subtitle"&gtby Kurt Wagner&lt/h3&gt
+&lt/div&gt
+&ltdiv class="card__secondary"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&lt/div&gt
+&lt/div&gt
+&lt/div&gt
+                    </code>
                 </pre>
             </div>
             <hr>
@@ -313,5 +630,8 @@ $lt/div&gt
             <hr>
         </section>
     </main>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
