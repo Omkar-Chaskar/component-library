@@ -16,7 +16,7 @@ code {
     border: 1px solid var(--secondary-color);
     border-radius: 4px; 
     overflow: auto;
-    justify-content: space-around;
+    text-align: left;
     }
 
 pre > code {
