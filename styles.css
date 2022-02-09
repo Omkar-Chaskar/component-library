@@ -1,4 +1,4 @@
-@import './Components/main.css';
+@import './Components/list.css';
 @import './Components/navi.css';
 @import './Components/input.css';
 @import './Components/image.css';
@@ -13,7 +13,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
