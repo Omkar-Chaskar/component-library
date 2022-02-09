@@ -1,5 +1,6 @@
 @import './Components/main.css';
 @import './Components/navi.css';
+@import './Components/input.css';
 @import './Components/image.css';
 @import './Components/sidebar.css';
 @import './Components/card.css';
@@ -72,7 +73,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 200.5%;
+    font-size: 200%;
 }
 
 body {
