@@ -13,6 +13,7 @@
     <nav class="sidebar-nav">
         <ul class="sidebar-nav-contain">
             <li class="sidebar-nav-list button-header"><a class="button-dark" href="./index.html">Home</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#typography">Typography</a></li>
             <li class="sidebar-nav-list button-header"><a class="button-dark" href="#avatar">Avatar</a></li>
             <li class="sidebar-nav-list button-header"><a class="button-dark" href="#alert">Alert</a></li>
             <li class="sidebar-nav-list button-header"><a class="button-dark" href="#badge">Badge</a></li>
@@ -25,14 +26,86 @@
     </nav>
     <hr>
     <main class="doc-container">
-        <section class="avatar-component" id="avatar">
+        <section class="typo-component" id="typography">
             <div class="doc-header-container">
-                <h2 class="doc-header">Avatar</h2>
+                <h3 class="doc-header">Typography</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Avatars are images that users can set as their profile picture. They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.</p>
+                <p class="p2">Font size of header tags and paragraphs are use rem . Just use class name in your code to get different font sizes.</p>
                 <br>
-                <p class="p3 bold">Square avatar</p>
+                <p>Header h1-h6 :</p>
+                <h1>Heading h1</h1>
+                <h2>Heading h2</h2>
+                <h3>Heading h3</h3>
+                <h4>Heading h4</h4>
+                <h5>Heading h5</h5>
+                <h6>Heading h6</h6>
+                <pre>
+                    <code>/*Header tag*/
+&lth1&gtHeading h1&lt/h1&gt
+&lth2&gtHeading h2&lt/h2&gt
+&lth3&gtHeading h3&lt/h3&gt
+&lth4&gtHeading h4&lt/h4&gt
+&lth5&gtHeading h5&lt/h5&gt
+&lth6&gtHeading h6&lt/h6&gt
+                    </code>
+                </pre>
+                <p>Paragraph :</p>
+                <br>
+                <p class="p1">Paragraph p1</p>
+                <p class="p2">Paragraph p2</p>
+                <p class="p3">Paragraph p3</p>
+                <p class="p4">Paragraph p4</p>
+                <pre>
+                    <code>/*Paragraph*/
+&ltp class="p1"&gtParagraph &ltp1/p&gt
+&ltp class="p2"&gtParagraph p2&lt/p&gt
+&ltp class="p3"&gtParagraph p3&lt/p&gt
+&ltp class="p4"&gtParagraph p4&lt/p&gt
+                    </code>
+                </pre>
+                <p>Colored Text</p>
+                <p class="text-grey">grey text</p>
+                <p class="text-primary">primary text</p>
+                <p class="text-secondary">secondary text</p>
+                <pre>
+                    <code>/*grey text*/
+&ltp class="text-grey"&gtgrey text&gt/p&gt
+
+/*primary text*/
+&gtp class="text-primary"&gtprimary textv/p&gt
+
+/*secondary text*/
+&gtp class="text-secondary"&gtsecondary text&gt/p&gt
+                    </code>
+                </pre>
+
+                <p>Text left , center and right</p>
+                <p class="text-start">Text Start</p>
+                <p class="text-center">Text Center</p>
+                <p class="text-end">Text End</p>
+                <pre>
+                    <code>/*left / start align text*/
+&ltp class="text-st"&gtText Start&lt/p&gt
+
+/*center text*/
+&ltp class="text-md"&gtText Center&lt/p&gt
+
+/*right / end align text*/
+&ltp class="text-ed"&gtText End&lt/p&gt
+                    </code>
+                </pre>
+            </div>
+            <hr>
+        </section>
+        <section class="avatar-component" id="avatar">
+            <div class="doc-header-container">
+                <h3 class="doc-header">Avatar</h3>
+            </div>
+            <div class="doc-body-container">
+                <p class="p2">Avatars are images that users can set as their profile picture. They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.</p>
+                <br>
+                <p class="p2 bold">Square avatar</p>
                 <div class="flex space-around">
                     <div class="avatar avatar-xs"><img class="avatar-img"src="./image/hero-1.jpg" alt="avatar component 50*50"></div>
                     <div class="avatar avatar-s"><img class="avatar-img"src="./image/hero-2.jpg" alt="avatar component 50*50"></div>
@@ -51,7 +124,7 @@
                 </pre>
 
                 <br>
-                <p class="p3 bold">Round avatar</p>
+                <p class="p2 bold">Round avatar</p>
                 <div class="flex space-around">
                     <div class="avatar avatar-xs avatar-rd"><img class="avatar-img"src="./image/hero-1.jpg" alt="round avatar 50*50"></div>
                     <div class="avatar avatar-s avatar-rd"><img class="avatar-img"src="./image/hero-2.jpg" alt="round avatar 60*60"></div>
@@ -71,7 +144,7 @@
 
                 <br>
                 
-                <p class="p3 bold">Border avatar</p>
+                <p class="p2 bold">Border avatar</p>
                 <div class="flex space-around">
                     <div class="avatar avatar-xs border-dark"><img class="avatar-img" src="./image/hero-1.jpg" alt="round avatar 50*50"></div>
                     <div class="avatar avatar-s border-dark"><img class="avatar-img"src="./image/hero-2.jpg" alt="round avatar 60*60"></div>
@@ -94,10 +167,10 @@
         </section>
         <section class="alert-component" id="alert">
             <div class="doc-header-container">
-                <h2 class="doc-header">Sample-text</h2>
+                <h3 class="doc-header">Sample-text</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Flash messages, or alerts, inform users of successful or pending actions. Use them sparingly. Don't show more than one at a time.</p>
+                <p class="p2">Flash messages, or alerts, inform users of successful or pending actions. Use them sparingly. Don't show more than one at a time.</p>
                 
                 <div class="alert alert-primary">
                     <p>This is a primary alert—check it out!<span class="material-icons-outlined">close</span></p>
@@ -173,34 +246,34 @@ $lt/div&gt
         </section>
         <section class="badge-component" id="badge">
             <div class="doc-header-container">
-                <h2 class="doc-header">Badge</h2>
+                <h3 class="doc-header">Badge</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Use the Badge Component Symbol to draw attention to another interface element or to display a notification. It enhances the component to which it is attached with additional information, disclosed to the user upon interacting with it.</p>
+                <p class="p2">Use the Badge Component Symbol to draw attention to another interface element or to display a notification. It enhances the component to which it is attached with additional information, disclosed to the user upon interacting with it.</p>
                 <br>
-                <p class="p3">Icon with a badge on the left</p>
+                <p class="p2">Icon with a badge on the left</p>
                 <button class="badge badge-icon">
                 <span class="badge-init badge-left">4</span>
                 <span class="material-icons">home</span>
                 </button>
                 <br>
-                <p class="p3">Icon with a badge on the right</p>
+                <p class="p2">Icon with a badge on the right</p>
                 <button class="badge badge-icon">
                 <br>
                 <span class="material-icons">home</span>
                 <span class="badge-init badge-right">4</span>
                 </button>
                 <br>
-                <p class="p3">Icon with a badge on the right-bottom</p>
+                <p class="p2">Icon with a badge on the right-bottom</p>
                 <button class="badge badge-icon">
                 <span class="material-icons">home</span>
                 <span class="badge-init badge-right-bottom">4</span>
                 </button>
                 <br>
-                <p class="p3">Button with a badge on the left</p>
+                <p class="p2">Button with a badge on the left</p>
                 <button class="badge badge-button button-primary"><span class="badge-init badge-left">4</span>home</button>
                 <br>
-                <p class="p3">Button with a badge on the right</p>
+                <p class="p2">Button with a badge on the right</p>
                 <button class="badge badge-button button-secondary">home<span class="badge-init badge-right">4</span></button>
                 <pre>
                     <code>/*Badge Components*/
@@ -234,10 +307,10 @@ $lt/div&gt
         </section>
         <section class="button-component" id="button">
             <div class="doc-header-container">
-                <h2 class="doc-header">Button</h2>
+                <h3 class="doc-header">Button</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">The HTML element represents a clickable button, used to submit ... the user agent runs on, but you can change buttons' appearance with CSS</p>
+                <p class="p2">The HTML element represents a clickable button, used to submit ... the user agent runs on, but you can change buttons' appearance with CSS</p>
                 <div class="button-container">
                     <button class="button">Button</button>
                     <button class="button button-primary">Primary Button</button>
@@ -279,12 +352,12 @@ $lt/div&gt
         </section>
         <section class="card-component" id="card">
             <div class="doc-header-container">
-                <h2 class="doc-header">Card</h2>
+                <h3 class="doc-header">Card</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
                 <br>
-                <p class="p3">Vertical Card</p>
+                <p class="p2">Vertical Card</p>
                 <div class="button-container">
     <div class="card card-basic">
 			<div class="card__primary-action card__primary-action-column card-hover">
@@ -341,7 +414,7 @@ $lt/div&gt
                     </code>
                 </pre>
 
-                <p class="p3">Card with Test Overlay</p>
+                <p class="p2">Card with Test Overlay</p>
                 <div class="button-container">
                     <div class="card card-text-over-media-variant">
                         <div class="card__primary-action card__primary-action-column ">
@@ -398,7 +471,7 @@ $lt/div&gt
                     </code>
                 </pre>
 
-                <p class="p3">Card With Shadow</p>
+                <p class="p2">Card With Shadow</p>
                 <div class="button-container">
                     <div class="card card-shadow">
                         <div class="card__primary-action card__primary-action-row">
@@ -454,7 +527,7 @@ $lt/div&gt
                     </code>
                 </pre>
 
-                <p class="p3">Card with Dismiss</p>
+                <p class="p2">Card with Dismiss</p>
                 <div class="button-container">
                     <div class="card card-basic">
                         <div class="card__primary-action card__primary-action-column card-hover">
@@ -514,7 +587,7 @@ $lt/div&gt
                     </code>
                 </pre>
 
-                <p class="p3">Card with Badges</p>
+                <p class="p2">Card with Badges</p>
                 <div class="button-container">
                     <div class="card card-basic">
  
@@ -577,7 +650,7 @@ $lt/div&gt
                     </code>
                 </pre>
 
-                <p class="p3">Text only card</p>
+                <p class="p2">Text only card</p>
                 <div class="button-container">
                     <div class="card card-basic">
                         <div class="card__primary-action card__primary-action-column card-hover">
@@ -608,10 +681,10 @@ $lt/div&gt
         </section>
         <section class="image-component" id="image">
             <div class="doc-header-container">
-                <h2 class="doc-header">Image</h2>
+                <h3 class="doc-header">Image</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
                 <br>
                 <div class="img-container">
                     <img class="image" src="https://images.unsplash.com/photo-1635068939060-4ba51e435cf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80;" alt="squire image" srcset="">
@@ -634,10 +707,10 @@ $lt/div&gt
         </section>
         <section class="input-component" id="input">
             <div class="doc-header-container">
-                <h2 class="doc-header">Input</h2>
+                <h3 class="doc-header">Input</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
                 <br>
                 <form class="form-action" action="">
                     <label class="input-label" for="username">User Name :</label>
@@ -669,10 +742,10 @@ $lt/div&gt
         </section>
         <section class="list-component" id="list">
             <div class="doc-header-container">
-                <h2 class="doc-header">List</h2>
+                <h3 class="doc-header">List</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Default behaviour of our list tag in <i>list-style-type:none</i> to add style on list we can use following class name. </p>
+                <p class="p2">Default behaviour of our list tag in <i>list-style-type:none</i> to add style on list we can use following class name. </p>
                 <br>
                 <ul>
                     <li class="ul-squire">Unordered list</li>
@@ -743,7 +816,7 @@ $lt/div&gt
 &lt/ol&gt
                     </code>
                 </pre>
-<p class="p3">Notifiacatio Stack list</p>
+<p class="p2">Notifiacatio Stack list</p>
                   <ul class="ul-none">
                     <li class="li-stack-border">
                       <span class="li-stack-head">Massege From Omkar</span>
@@ -781,10 +854,10 @@ $lt/div&gt
         </section>
         <section class="input-component" id="input">
             <div class="doc-header-container">
-                <h2 class="doc-header">Sample-text</h2>
+                <h3 class="doc-header">Sample-text</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
                 <pre>
                     <code>&lt this is code &gt</code>
                 </pre>
@@ -793,10 +866,10 @@ $lt/div&gt
         </section>
         <section class="input-component" id="input">
             <div class="doc-header-container">
-                <h2 class="doc-header">Sample-text</h2>
+                <h3 class="doc-header">Sample-text</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
                 <pre>
                     <code>&lt this is code &gt</code>
                 </pre>

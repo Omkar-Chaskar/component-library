@@ -1,5 +1,5 @@
 @import './Components/list.css';
-@import './Components/navi.css';
+@import './Components/typography.css';
 @import './Components/input.css';
 @import './Components/image.css';
 @import './Components/sidebar.css';
@@ -72,7 +72,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 body {
@@ -97,35 +97,11 @@ button,a {
 
 /*------------Heading-------------*/
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 300; }
-    
-  h1 { font-size: 48px; margin-bottom: 1.5rem;} 
-  h2 { font-size: 32px; margin-bottom: 1rem;}
-  h3 { font-size: 24px; margin-bottom: .8rem;}
-  h4 { font-size: 16px; margin-bottom: .6rem;}
-  h5 { font-size: 8px; margin-bottom: .4rem;}
-  h6 { font-size: 4px; margin-bottom: .2rem;}
-  
-  /* Larger than phablet */
-  @media (min-width: 550px) {
-    h1 { font-size: 56px; }
-    h2 { font-size: 48px; }
-    h3 { font-size: 40px; }
-    h4 { font-size: 32px; }
-    h5 { font-size: 24px; }
-    h6 { font-size: 16px; }
-  }
-  
 
 /*-------Text--------*/
 p { margin-top: 0; }
-
-.p1  { font-size: 48px; } 
-.p2  { font-size: 32px; }
-.p3  { font-size: 24px; }
-.p4  { font-size: 16px; }
-.p5  { font-size: 8px; }
 
 /*-----Font Weight------*/
 
