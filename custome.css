@@ -35,6 +35,10 @@
     margin: auto;
 }
 
+.list-container {
+    padding: auto;
+}
+
 @media screen and (max-width: 600px) {
     .home-header{
         top: 10vh;
