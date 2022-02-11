@@ -22,6 +22,7 @@
             <li class="sidebar-nav-list button-header"><a class="button-dark" href="#image">Image</a></li>
             <li class="sidebar-nav-list button-header"><a class="button-dark" href="#input">Input</a></li>
             <li class="sidebar-nav-list button-header"><a class="button-dark" href="#list">List</a></li>
+            <li class="sidebar-nav-list button-header"><a class="button-dark" href="#navigation">Navigation</a></li>
         </ul>
     </nav>
     <hr>
@@ -852,14 +853,46 @@ $lt/div&gt
             </div>
             <hr>
         </section>
-        <section class="input-component" id="input">
+        <section class="nav-component" id="navigation">
             <div class="doc-header-container">
-                <h3 class="doc-header">Sample-text</h3>
+                <h3 class="doc-header">navigation</h3>
             </div>
             <div class="doc-body-container">
                 <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <br>
+                <nav class="navigation">
+                    <div class="nav-logo">Ratha</div>
+                    <div class="nav-menu">
+                      <ul class="nav-flex-row">
+                        <li class="nav-menu-sub"><a href="#">Home</a></li>
+                        <li class="nav-menu-sub"><a href="#">Product</a></li>
+                        <li class="nav-menu-sub"><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                    <div class="nav-submenu">
+                      <ul class="nav-flex-row">
+                        <li class="nav-submenu-sub"><a href="#">Log Out</a></li>
+                      </ul>
+                    </div>
+                  </nav>
                 <pre>
-                    <code>&lt this is code &gt</code>
+                    <code>/*navigation bar*/
+&ltnav class="navigation"&gt
+&ltdiv class="nav-logo"&gtRatha&lt/div&gt
+&ltdiv class="nav-menu"&gt
+&ltul class="nav-flex-row"&gt
+&ltli class="nav-menu-sub"&gt&lta href="#"&gtHome&lt/a&gt&lt/li&gt
+&ltli class="nav-menu-sub"&gt&lta href="#"&gtProduct&lt/a&gt&lt/li&gt
+&ltli class="nav-menu-sub"&gt&lta href="#"&gtContact&lt/a&gt&lt/li&gt
+&lt/ul&gt
+&lt/div&gt
+&ltdiv class="nav-submenu"&gt
+&lt&ltul class="nav-flex-row"&gt
+&ltli class="nav-submenu-sub"&gt&lta href="#"&gtLog Out&lt/a&gt&lt/li&gt
+&lt/ul&gt
+&lt/div&gt
+&lt/nav&gt
+                    </code>
                 </pre>
             </div>
             <hr>
