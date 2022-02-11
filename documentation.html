@@ -7,7 +7,7 @@
     <link href="//fonts.googleapis.com/css2?family=Material+Icons+Outlined&amp;v=1644152679482" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="custome.css">
-    <title>Ratha.css documentation</title>
+    <title>Ratha UI documentation</title>
 </head>
 <body>
     <nav class="sidebar-nav">
@@ -32,9 +32,9 @@
                 <h3 class="doc-header">Typography</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p2">Font size of header tags and paragraphs are use rem . Just use class name in your code to get different font sizes.</p>
+                <p class="p1">Font size of header tags and paragraphs are use rem. Just use class name in your code to get different font sizes.</p>
                 <br>
-                <p>Header h1-h6 :</p>
+                <h5>Header h1-h6 :</h5>
                 <h1>Heading h1</h1>
                 <h2>Heading h2</h2>
                 <h3>Heading h3</h3>
@@ -51,7 +51,7 @@
 &lth6&gtHeading h6&lt/h6&gt
                     </code>
                 </pre>
-                <p>Paragraph :</p>
+                <h5>Paragraph :</h5>
                 <br>
                 <p class="p1">Paragraph p1</p>
                 <p class="p2">Paragraph p2</p>
@@ -65,7 +65,8 @@
 &ltp class="p4"&gtParagraph p4&lt/p&gt
                     </code>
                 </pre>
-                <p>Colored Text</p>
+                <h5>Colored Text :</h5>
+                <br>
                 <p class="text-grey">grey text</p>
                 <p class="text-primary">primary text</p>
                 <p class="text-secondary">secondary text</p>
@@ -80,11 +81,11 @@
 &gtp class="text-secondary"&gtsecondary text&gt/p&gt
                     </code>
                 </pre>
-
-                <p>Text left , center and right</p>
-                <p class="text-start">Text Start</p>
-                <p class="text-center">Text Center</p>
-                <p class="text-end">Text End</p>
+                    <h5>Text align :</h5>
+                    <br>
+                    <p class="text-start">Text Start</p>
+                    <p class="text-center">Text Center</p>
+                    <p class="text-end">Text End</p>
                 <pre>
                     <code>/*left / start align text*/
 &ltp class="text-st"&gtText Start&lt/p&gt
@@ -96,6 +97,34 @@
 &ltp class="text-ed"&gtText End&lt/p&gt
                     </code>
                 </pre>
+                <h5>Letter Spacing :</h5>
+                <br>
+                <p class="spacing-xs">spacing-xs</p>
+                <p class="spacing-s">spacing-s</p>
+                <p class="spacing-m">spacing-m</p>
+                <p class="spacing-l">spacing-l</p>
+                <p class="spacing-xl">spacing-xl</p>
+                <p class="spacing-xxl">spacing-xxl</p>
+                <br>
+                <h5>font Weight :</h5>
+                <br>
+                <p class="light">light</p>
+                <p class="regular">regular</p>
+                <p class="semibold">semibold</p>
+                <p class="bold">bold</p>
+                <p class="bolder">bolder</p>
+                <br>
+                <h5>Round Border :</h5>
+                <br>
+                <div class="flex">
+                    <button class="bordius-s">bordius-s</button>
+                    <button class="bordius-m">bordius-m</button>
+                    <button class="bordius-l">bordius-l</button>
+                    <button class="bordius-rd">bordius-rd</button>
+                </div>
+                
+                <br>
+
             </div>
             <hr>
         </section>
@@ -106,7 +135,7 @@
             <div class="doc-body-container">
                 <p class="p2">Avatars are images that users can set as their profile picture. They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.</p>
                 <br>
-                <p class="p2 bold">Square avatar</p>
+                <h5>Square avatar :</h5>
                 <div class="flex space-around">
                     <div class="avatar avatar-xs"><img class="avatar-img"src="./image/hero-1.jpg" alt="avatar component 50*50"></div>
                     <div class="avatar avatar-s"><img class="avatar-img"src="./image/hero-2.jpg" alt="avatar component 50*50"></div>
@@ -125,7 +154,7 @@
                 </pre>
 
                 <br>
-                <p class="p2 bold">Round avatar</p>
+                <h5>Round avatar:</h5>
                 <div class="flex space-around">
                     <div class="avatar avatar-xs avatar-rd"><img class="avatar-img"src="./image/hero-1.jpg" alt="round avatar 50*50"></div>
                     <div class="avatar avatar-s avatar-rd"><img class="avatar-img"src="./image/hero-2.jpg" alt="round avatar 60*60"></div>
@@ -145,7 +174,7 @@
 
                 <br>
                 
-                <p class="p2 bold">Border avatar</p>
+                <h5>Border avatar :</h5>
                 <div class="flex space-around">
                     <div class="avatar avatar-xs border-dark"><img class="avatar-img" src="./image/hero-1.jpg" alt="round avatar 50*50"></div>
                     <div class="avatar avatar-s border-dark"><img class="avatar-img"src="./image/hero-2.jpg" alt="round avatar 60*60"></div>
@@ -168,7 +197,7 @@
         </section>
         <section class="alert-component" id="alert">
             <div class="doc-header-container">
-                <h3 class="doc-header">Sample-text</h3>
+                <h3 class="doc-header">Alert</h3>
             </div>
             <div class="doc-body-container">
                 <p class="p2">Flash messages, or alerts, inform users of successful or pending actions. Use them sparingly. Don't show more than one at a time.</p>
@@ -191,7 +220,7 @@
                 <div class="alert alert-info">
                     <p>This is a info alert—check it out!<span class="material-icons-outlined">close</span></p>
                 </div>
-                <div class="alert alert-dark">
+                <div class="alert alert-white">
                     <p>This is a white alert—check it out!<span class="material-icons-outlined">close</span></p>
                 </div>
                 <div class="alert alert-dark">
@@ -356,9 +385,7 @@ $lt/div&gt
                 <h3 class="doc-header">Card</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
-                <br>
-                <p class="p2">Vertical Card</p>
+                <h5>Vertical Card</h5>
                 <div class="button-container">
     <div class="card card-basic">
 			<div class="card__primary-action card__primary-action-column card-hover">
@@ -377,11 +404,11 @@ $lt/div&gt
 					<button class="card-button  card-hover">  <span class="mdc-button__ripple"></span> Bookmark</button>
 				</div>
 				<div class="card__action-icons">
-					<button class="icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+					<button class="card-icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
 						<ion-icon name="heart-outline"></ion-icon>
 					</button>
-					<button class="icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
-					<button class="icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+					<button class="card-icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+					<button class="card-icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
 				</div>
 			</div>
 		</div>
@@ -405,23 +432,23 @@ $lt/div&gt
 &ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
 &lt/div&gt
 &ltdiv class="card__action-icons"&gt
-&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt
                     </code>
                 </pre>
 
-                <p class="p2">Card with Test Overlay</p>
+                <h5>Card with Test Overlay</h5>
                 <div class="button-container">
                     <div class="card card-text-over-media-variant">
                         <div class="card__primary-action card__primary-action-column ">
                             <div class="card__media-column">
                       <img class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt="">
-                    <div class="card__primary card-text-over text-center">
+                    <div class="card__primary card-text-over card-text-center">
                                 <h2 class="card__title">Our Changing Planet</h2>
                                 <h3 class="card__subtitle">by Kurt Wagner</h3>
                             </div>
@@ -434,11 +461,11 @@ $lt/div&gt
                                 <button class="card-button card-hover">  <span class="mdc-button__ripple"></span> Bookmark</button>
                             </div>
                             <div class="card__action-icons">
-                                <button class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                <button class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
                                     <ion-icon name="heart-outline"></ion-icon>
                                 </button>
-                                <button class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
-                                <button class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+                                <button class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+                                <button class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
                             </div>
                         </div>
                     </div>
@@ -449,7 +476,7 @@ $lt/div&gt
 &ltdiv class="card__primary-action"&gt
 &ltdiv class="card__media-column"&gt
 &ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
-&ltdiv class="card__primary card-text-over text-center"&gt
+&ltdiv class="card__primary card-text-over card-text-center"&gt
 &lth2 class="card__title">Our Changing Planet&lt/h2&gt
 &lth3 class="card__subtitle">by Kurt Wagner&lt/h3&gt
 &lt/div&gt
@@ -462,17 +489,17 @@ $lt/div&gt
 &ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
 &lt/div&gt
 &ltdiv class="card__action-icons"&gt
-&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt
                     </code>
                 </pre>
 
-                <p class="p2">Card With Shadow</p>
+                <h5>Card With Shadow</h5>
                 <div class="button-container">
                     <div class="card card-shadow">
                         <div class="card__primary-action card__primary-action-row">
@@ -490,11 +517,11 @@ $lt/div&gt
                                 <button class="card-button card-hover">  <span class="mdc-button__ripple"></span> Bookmark</button>
                             </div>
                             <div class="card__action-icons">
-                                <button class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                <button class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
                         <ion-icon name="heart"></ion-icon>
                                 </button>
-                                <button class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
-                                <button class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+                                <button class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+                                <button class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
                             </div>
                         </div>
                     </div>
@@ -517,18 +544,18 @@ $lt/div&gt
 &ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
 &lt/div&gt
 &ltdiv class="card__action-icons"&gt
-&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt
 &lt/div&gt
                     </code>
                 </pre>
 
-                <p class="p2">Card with Dismiss</p>
+                <h5>Card with Dismiss</h5>
                 <div class="button-container">
                     <div class="card card-basic">
                         <div class="card__primary-action card__primary-action-column card-hover">
@@ -549,11 +576,11 @@ $lt/div&gt
                             </div>
             
                             <div class="card__action-icons">
-                                <button class="icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                <button class="card-icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
                                     <ion-icon name="heart-outline"></ion-icon>
                                 </button>
-                                <button class="icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
-                                <button class="icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+                                <button class="card-icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+                                <button class="card-icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
                             </div>
                         </div>
                     </div>            
@@ -578,17 +605,17 @@ $lt/div&gt
 &ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
 &lt/div&gt
 &ltdiv class="card__action-icons"&gt
-&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt 
                     </code>
                 </pre>
 
-                <p class="p2">Card with Badges</p>
+                <h5">Card with Badges</h5>
                 <div class="button-container">
                     <div class="card card-basic">
  
@@ -611,11 +638,11 @@ $lt/div&gt
                             </div>
             
                             <div class="card__action-icons">
-                                <button class="icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                <button class="card-icon-button  card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
                                     <ion-icon name="heart-outline"></ion-icon>
                                 </button>
-                                <button class="icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
-                                <button class="icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
+                                <button class="card-icon-button  card-hover" title="Share" data-mdc-ripple-is-unbounded="true"><ion-icon name="share-social-outline"></ion-icon></button>
+                                <button class="card-icon-button  card-hover" title="More options" data-mdc-ripple-is-unbounded="true"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></button>
                             </div>
                         </div>
                     </div>
@@ -641,17 +668,17 @@ $lt/div&gt
 &ltbutton class="card-button card-hover"&gt  &ltspan class="mdc-button__ripple"&gt&lt/span&gt Bookmark&lt/button&gt
 &lt/div&gt
 &ltdiv class="card__action-icons"&gt
-&ltbutton class="icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
+&ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt    
                     </code>
                 </pre>
 
-                <p class="p2">Text only card</p>
+                <h5>Text only card</h5>
                 <div class="button-container">
                     <div class="card card-basic">
                         <div class="card__primary-action card__primary-action-column card-hover">
@@ -685,14 +712,14 @@ $lt/div&gt
                 <h3 class="doc-header">Image</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p2">Image size is inherit from its container or it's parent element.  </p>
                 <br>
                 <div class="img-container">
                     <img class="image" src="https://images.unsplash.com/photo-1635068939060-4ba51e435cf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80;" alt="squire image" srcset="">
                 </div>
                     <pre>
                         <code>/*Squire Image*/
-&ltimg class="image" src="https://images.unsplash.com/photo-1635068939060-4ba51e435cf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80;" alt="squire image" srcset=""&gt
+&ltimg class="image" src="" alt="squire image" srcset=""&gt
                         </code>
                     </pre>
                 <div class="img-container">
@@ -700,7 +727,7 @@ $lt/div&gt
                 </div>
                     <pre>
                     <code>/*Round Image*/
-&ltimg class="image image-round" src="https://images.unsplash.com/photo-1635068939060-4ba51e435cf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80;" alt="round image"&gt
+&ltimg class="image image-round" src="" alt="round image"&gt
                     </code>
                 </pre>
             </div>
@@ -711,8 +738,6 @@ $lt/div&gt
                 <h3 class="doc-header">Input</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
-                <br>
                 <form class="form-action" action="">
                     <label class="input-label" for="username">User Name :</label>
                     <input class="input-action" type="text" id="userName" name="username" placeholder="Enter user name.." required>
@@ -817,7 +842,7 @@ $lt/div&gt
 &lt/ol&gt
                     </code>
                 </pre>
-<p class="p2">Notifiacatio Stack list</p>
+<h5>Notifiacatio Stack list</h5>
                   <ul class="ul-none">
                     <li class="li-stack-border">
                       <span class="li-stack-head">Massege From Omkar</span>
@@ -858,7 +883,7 @@ $lt/div&gt
                 <h3 class="doc-header">navigation</h3>
             </div>
             <div class="doc-body-container">
-                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p2">Simple navigation Which can be customise.</p>
                 <br>
                 <nav class="navigation">
                     <div class="nav-logo">Ratha</div>
@@ -897,14 +922,14 @@ $lt/div&gt
             </div>
             <hr>
         </section>
-        <section class="input-component" id="input">
+        <section class="next-component" id="next">
             <div class="doc-header-container">
-                <h3 class="doc-header">Sample-text</h3>
+                <h3 class="doc-header"></h3>
             </div>
             <div class="doc-body-container">
-                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione animi minima quos modi provident odio ducimus necessitatibus, voluptatem, autem impedit saepe eaque sapiente quis reiciendis nam tempora minus? Libero?</p>
+                <p class="p2"></p>
                 <pre>
-                    <code>&lt this is code &gt</code>
+                    <code>&lt Made by @Omkar Chaskar &gt</code>
                 </pre>
             </div>
             <hr>
