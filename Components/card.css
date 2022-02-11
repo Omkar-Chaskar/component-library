@@ -77,12 +77,12 @@ right: 5px;
   color: #fff;
 }
 
-.text-bottom {
+.card-text-bottom {
   position: absolute;
   top: 60%;
 }
 
-.text-center {
+.card-text-center {
   position: absolute;
   top : 25%;
 }
@@ -116,7 +116,7 @@ right: 5px;
   font-size: 0.6em;
 }
 
-.icon-button {
+.card-icon-button {
   border-radius: 50%;
   font-size: 0.7rem;
   margin: 4px 2px;
