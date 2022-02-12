@@ -72,13 +72,13 @@
                 <p class="text-secondary">secondary text</p>
                 <pre>
                     <code>/*grey text*/
-&ltp class="text-grey"&gtgrey text&gt/p&gt
+&ltp class="text-grey"&gtgrey text&lt/p&gt
 
 /*primary text*/
-&gtp class="text-primary"&gtprimary textv/p&gt
+&ltp class="text-primary"&gtprimary text&lt/p&gt
 
 /*secondary text*/
-&gtp class="text-secondary"&gtsecondary text&gt/p&gt
+&ltp class="text-secondary"&gtsecondary text&lt/p&gt
                     </code>
                 </pre>
                     <h5>Text align :</h5>
@@ -231,44 +231,44 @@
                     <code>  /*Alert Section*/
 
 /*Primary Alert*/
-$ltdiv class="alert alert-primary"&gt
-    $ltp&gtThis is a primary alert—check it out!$ltspan class="material-icons-outlined"&gtclose$lt/span&gt$lt/p&gt
-$lt/div&gt
+&ltdiv class="alert alert-primary"&gt
+    &ltp&gtThis is a primary alert—check it out!&ltspan class="material-icons-outlined"&gtclose&lt/span&gt&lt/p&gt
+&lt/div&gt
 
 /*Secondary Alert*/
-$ltdiv class="alert alert-secondary"&gt
-    $ltp&gtThis is a secondary alert—check it out!$ltspan class="material-icons-outlined"&gtclose$lt/span&gt$lt/p&gt
-$lt/div&gt
+&ltdiv class="alert alert-secondary"&gt
+    &ltp&gtThis is a secondary alert—check it out!&ltspan class="material-icons-outlined"&gtclose&lt/span&gt&lt/p&gt
+&lt/div&gt
 
 /*Success Alert*/
-$ltdiv class="alert alert-success"&gt
-    $ltp&gtThis is a success alert—check it out!$ltspan class="material-icons-outlined"&gtclos$lt&lt/span&gt$lt/p&gt
-$lt/div&gt
+&ltdiv class="alert alert-success"&gt
+    &ltp&gtThis is a success alert—check it out!&ltspan class="material-icons-outlined"&gtclos&lt&lt/span&gt&lt/p&gt
+&lt/div&gt
 
 /*Danger Alert*/
-$ltdiv class="alert alert-danger"&gt
-    $ltp&gtThis is a danger alert—check it out!$ltspan class="material-icons-outlined"&gtclose$lt/span&gt$lt/p&gt
-$lt/div&gt
+&ltdiv class="alert alert-danger"&gt
+    &ltp&gtThis is a danger alert—check it out!&ltspan class="material-icons-outlined"&gtclose&lt/span&gt&lt/p&gt
+&lt/div&gt
 
 /*Warning Alert*/
 &gtdiv class="alert alert-warning"&gt
-    $ltp&gtThis is a warning alert—check it out!$ltspan class="material-icons-outlined"&gtclose$lt/span&gt$lt/p&gt
-$lt/div&gt
+    &ltp&gtThis is a warning alert—check it out!&ltspan class="material-icons-outlined"&gtclose&lt/span&gt&lt/p&gt
+&lt/div&gt
 
 /*Info Alert*/
-$ltdiv class="alert alert-info"&gt
-    $ltp&gtThis is a info alert—check it out!$ltspan class="material-icons-outlined"&gtclose$lt/span&gt$lt/p&gt
-$lt/div&gt
+&ltdiv class="alert alert-info"&gt
+    &ltp&gtThis is a info alert—check it out!&ltspan class="material-icons-outlined"&gtclose&lt/span&gt&lt/p&gt
+&lt/div&gt
 
 /*White Alert*/
-$ltdiv class="alert alert-dark"&gt
-    $ltp&gtThis is a white alert—check it out!$ltspan class="material-icons-outlined"&gtclose$lt/span&gt$lt/p&gt
-$lt/div&gt
+&ltdiv class="alert alert-dark"&gt
+    &ltp&gtThis is a white alert—check it out!&ltspan class="material-icons-outlined"&gtclose&lt/span&gt&lt/p&gt
+&lt/div&gt
 
 /*Dark Alert*/
-$ltdiv class="alert alert-dark"&gt
-    $ltp&gtThis is a dark alert—check it out!$ltspan class="material-icons-outlined"&gtclose$lt/span&gt$lt/p&gt
-$lt/div&gt                     
+&ltdiv class="alert alert-dark"&gt
+    &ltp&gtThis is a dark alert—check it out!&ltspan class="material-icons-outlined"&gtclose&lt/span&gt&lt/p&gt
+&lt/div&gt                     
                     </code>
                 </pre>
             </div>
@@ -478,13 +478,14 @@ $lt/div&gt
 &ltdiv class="card"&gt
 &ltdiv class="card__primary-action"&gt
 &ltdiv class="card__media-column"&gt
-&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&ltimg class="card-img" src="" alt=""&gt
 &ltdiv class="card__primary card-text-over card-text-center"&gt
 &lth2 class="card__title">Our Changing Planet&lt/h2&gt
 &lth3 class="card__subtitle">by Kurt Wagner&lt/h3&gt
 &lt/div&gt
 &lt/div&gt
-&ltdiv class="card__secondary card-hover card__secondary--space"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&ltdiv class="card__secondary card-hover card__secondary--space"&gt
+Visit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
 &lt/div&gt
 &ltdiv class="card__actions"&gt
 &ltdiv class="card__action-buttons"&gt
@@ -495,8 +496,10 @@ $lt/div&gt
 &ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share"
+ data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options"
+ data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt
                     </code>
@@ -534,7 +537,7 @@ $lt/div&gt
 &ltdiv class="card card-shadow"&gt
 &ltdiv class="card__primary-action card__primary-action-row"&gt
 &ltdiv class="card__media-row"&gt
-&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&ltimg class="card-img" src="" alt=""&gt
 &lt/div&gt
 &ltdiv class="card__primary card-hover"&gt
 &lth2 class="card__title"&gtOur Changing Planet&lt/h2&gt
@@ -550,8 +553,10 @@ $lt/div&gt
 &ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon
+ name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options"
+ data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt
 &lt/div&gt
@@ -594,13 +599,14 @@ $lt/div&gt
 &ltdiv class="card__primary-action"&gt
 &ltion-icon name="close-outline" class="badge-up-right-corner card-badge"&gt&lt/ion-icon&gt
 &ltdiv class="card__media-column"&gt
-&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&ltimg class="card-img" src="" alt=""&gt
 &lt/div&gt
 &ltdiv class="card__primary card-text-over text-center"&gt
 &lth2 class="card__title">Our Changing Planet&lt/h2&gt
 &lth3 class="card__subtitle">by Kurt Wagner&lt/h3&gt
 &lt/div&gt
-&ltdiv class="card__secondary card-hover card__secondary--space"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&ltdiv class="card__secondary card-hover card__secondary--space"&gt
+Visit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
 &lt/div&gt
 &ltdiv class="card__actions"&gt
 &ltdiv class="card__action-buttons"&gt
@@ -611,8 +617,10 @@ $lt/div&gt
 &ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt
+&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt
+&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt 
                     </code>
@@ -657,13 +665,14 @@ $lt/div&gt
 &ltion-icon name="arrow-back-outline" class="badge-up-left-corner card-badge"&gt&lt/ion-icon&gt
 &ltion-icon name="heart-circle-outline" class="badge-up-right-corner card-badge"&gt&lt/ion-icon&gt
 &ltdiv class="card__media-column"&gt
-&ltimg class="card-img" src="https://images.unsplash.com/photo-1606913852449-8ebf553565cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OHx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60;" alt=""&gt
+&ltimg class="card-img" src="" alt=""&gt
 &lt/div&gt
 &ltdiv class="card__primary card-text-over text-center"&gt
 &lth2 class="card__title">Our Changing Planet&lt/h2&gt
 &lth3 class="card__subtitle">by Kurt Wagner&lt/h3&gt
 &lt/div&gt
-&ltdiv class="card__secondary card-hover card__secondary--space"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&ltdiv class="card__secondary card-hover card__secondary--space"&gt
+Visit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
 &lt/div&gt
 &ltdiv class="card__actions"&gt
 &ltdiv class="card__action-buttons"&gt
@@ -674,8 +683,10 @@ $lt/div&gt
 &ltbutton class="card-icon-button card-hover" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites"&gt
 &ltion-icon name="heart-outline"&gt&lt/ion-icon&gt
 &lt/button&gt
-&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
-&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="Share" data-mdc-ripple-is-unbounded="true"&gt
+&ltion-icon name="share-social-outline"&gt&lt/ion-icon&gt&lt/button&gt
+&ltbutton class="card-icon-button card-hover" title="More options" data-mdc-ripple-is-unbounded="true"&gt
+&ltion-icon name="ellipsis-horizontal-outline"&gt&lt/ion-icon&gt&lt/button&gt
 &lt/div&gt
 &lt/div&gt    
                     </code>
@@ -701,7 +712,8 @@ $lt/div&gt
 &lth2 class="card__title"&gtOur Changing Planet&lt/h2&gt
 &lth3 class="card__subtitle"&gtby Kurt Wagner&lt/h3&gt
 &lt/div&gt
-&ltdiv class="card__secondary"&gtVisit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
+&ltdiv class="card__secondary"&gt
+Visit ten places on our planet that are undergoing the biggest changes today.&lt/div&gt
 &lt/div&gt
 &lt/div&gt
 &lt/div&gt
@@ -863,19 +875,19 @@ $lt/div&gt
                 <pre>
                     <code>/*Notification Stack*/
 &ltul class="ul-none"&gt
-&gtli class="li-stack-border"&gt
-&gtspan class="li-stack-head"&gtMassege From Omkar&gt/span&gt
-&gtp class="li-stack-sub"&gtNotification list Satck &gt/p&gt
-&gt/li&gt
-&gtli class="li-stack-border"&gt
-&gtspan class="li-stack-head"&gtMassege From Omkar&gt/span&gt
-&gtp class="li-stack-sub"&gtNotification list Satck &gt/p&gt
-&gt/li&gt
-&gtli class="li-stack-border"&gt
-&gtspan class="li-stack-head"&gtMassege From Omkar&gt/span&gt
-&gtp class="li-stack-sub"&gtNotification list Satck &gt/p&gt
-&gt/li&gt
-&gt/ul&gt
+&ltli class="li-stack-border"&gt
+&tspan class="li-stack-head"&gtMassege From Omkar&lt/span&gt
+&ltp class="li-stack-sub"&gtNotification list Satck &lt/p&gt
+&lt/li&gt
+&ltli class="li-stack-border"&gt
+&ltspan class="li-stack-head"&gtMassege From Omkar&lt/span&gt
+&ltp class="li-stack-sub"&gtNotification list Satck &lt/p&gt
+&lt/li&gt
+&ltli class="li-stack-border"&gt
+&ltspan class="li-stack-head"&gtMassege From Omkar&lt/span&gt
+&ltp class="li-stack-sub"&gtNotification list Satck &lt/p&gt
+&lt/li&gt
+&lt/ul&gt
                     </code>
                 </pre>
             </div>
