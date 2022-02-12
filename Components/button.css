@@ -27,9 +27,7 @@ button {
 
 .button {
     position: relative;
-    min-width: 10rem;
-    font-size: 1rem;
-    padding: 0.5rem 0;
+    padding: 0.5rem 2rem;
     margin: 0.5rem;
 }
 
@@ -82,8 +80,15 @@ button {
 
 .icon {
   position: relative;
-  font-size: inherit;
-  top: 5%;
+  font-size: 1.5rem;
+  top: 5px;
+  right: 5px;
+}
+
+.icon-ctr {
+  position: relative;
+  font-size: 1.5rem;
+  top: 2px;
 }
 
 .button-disable {
@@ -91,21 +96,37 @@ button {
 }
 
 .button-danger {
-  color: var(--danger);
-  background-color: var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--danger);
   border: 2px solid var(--danger);
 }
 
-.button-success {
-  color: var(--success);
+.button-danger:hover {
+  color: var(--danger);
   background-color: var(--primary-color);
+}
+
+.button-success {
+  color: var(--primary-color);
+  background-color: var(--success);
   border: 2px solid var(--success);
 }
 
+.button-success:hover {
+  color: var(--success);
+  background-color: var(--primary-color);
+}
+
+
 .button-info {
+  color: var(--primary-color);
+  background-color: var(--info);
+  border: 2px solid var(--info);
+}
+
+.button-info:hover {
   color: var(--info);
   background-color: var(--primary-color);
-  border: 2px solid var(--info);
 }
 
 .button-icon {
