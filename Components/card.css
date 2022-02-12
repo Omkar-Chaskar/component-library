@@ -1,7 +1,7 @@
 .card {
-  width: 10rem;
+  width: 16rem;
   height: max-content;
-  border: 1px solid rgb(230, 224, 224);
+  border: 1px solid var(--gray-200);
   display: inline-flex;
   flex-direction: column;
   border-radius: 5px;
@@ -10,13 +10,13 @@
 
 .card-shadow {
   font-size: inherit;
-  box-shadow: 5px 5px rgb(196, 192, 192);
+  box-shadow: 5px 5px var(--gray-400);
 }
 
 .card-badge {
-  color: rgb(253, 253, 253);
+  color: var(--primary-color);
   font-weight: 500;
-  font-size: inherit;
+  font-size: 1.5rem;
 }
 
 .badge-up-left-corner {
@@ -32,7 +32,7 @@ right: 5px;
 }
 
 .card-badge:hover {
-  background-color: rgb(236, 91, 91);
+  background-color: var(--red);
   border-radius: 50%;
 }
 
@@ -74,7 +74,7 @@ right: 5px;
 
 .card-text-over {
   position: absolute;
-  color: #fff;
+  color: var(--primary-color);
 }
 
 .card-text-bottom {
@@ -84,7 +84,7 @@ right: 5px;
 
 .card-text-center {
   position: absolute;
-  top : 25%;
+  top : 35%;
 }
 
 .card__secondary--space {
@@ -92,52 +92,66 @@ right: 5px;
 }
 
 .card__secondary {
-  font-size: 0.5em;
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }
 
 .card__title {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .card__subtitle {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .card__actions {
   display: flex;
-  flex: 3rem wrap;
+  position: relative;
+  flex: 4rem wrap;
   justify-content: space-between;
   align-items: center;
 }
 
+.card__action-buttons , .card__action-icons {
+  position: relative;
+}
+
 .card-button {
-  color: rgb(108, 108, 110);
+  color: var(--primary-hover);
   font-weight: 600;
-  font-size: 0.6em;
+  font-size: inherit;
 }
 
 .card-icon-button {
   border-radius: 50%;
-  font-size: 0.7rem;
-  margin: 4px 2px;
+  font-size: 1.2rem;
+  padding: 4px;
+  margin: 0.2rem 0.1rem;
   position: relative;
-  top : 5px;
+  top : 3px;
+  background-color: transparent;
+}
+
+.card-icon-button:hover {
+  font-size: 1.3rem;
+  margin: auto;
 }
 
 .card-hover:hover {
-  background-color:rgb(231, 229, 229);
+  background-color: var(--gray-300);
 }
 
 .card-button:active {
-  background-color:rgb(27, 27, 27);
-  color: #fff;
+  background-color: var(--primary-hover);
+  color: var(--primary-color);
 }
 
 .card-button , .icon-button{
-  background-color: transparent;
+  background-color: var(--primary-color);
 }
 
 .button-container {
   justify-content: center;
   align-items: center;
+  padding: 0.5rem ;
 }
