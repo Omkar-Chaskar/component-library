@@ -7,16 +7,19 @@
     overflow: auto;
 }
 
+.sidebar-nav-contain {
+    padding: 0;
+}
+
 .sidebar-nav-list li {
-    margin: 0 !important;
+    margin: 0;
     padding: 0;
 }
 
 .sidebar-nav-list a {
     display: block;
-    padding: 10px;
-    text-decoration: none;
-    margin: 0;
+    font-size: inherit;
+    padding: 0.5rem;
 }
 
 .sidebar-nav-list a:active {

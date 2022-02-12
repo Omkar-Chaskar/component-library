@@ -2,7 +2,7 @@
 .doc-container {
     margin-left: 200px;
     height: max-content;
-    padding: 0.5rem;
+    padding: 1rem;
     border-left: 2px solid var(--secondary-color);
 }
 
@@ -10,13 +10,12 @@ code {
     padding: .1rem .5rem;
     width: fit-content;
     margin: auto;
-    font-size: 60%;
+    font-size: 100%;
     white-space: nowrap;
     background: inherit;
     border: 1px solid var(--secondary-color);
     border-radius: 4px; 
     overflow: auto;
-    text-align: left;
     }
 
 pre > code {
