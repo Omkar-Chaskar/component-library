@@ -8,14 +8,15 @@
 
 code {
     padding: .1rem .5rem;
-    width: fit-content;
+    width: 90%;
     margin: auto;
     font-size: 100%;
     white-space: nowrap;
     background: inherit;
     border: 1px solid var(--secondary-color);
     border-radius: 4px; 
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: scroll;
     }
 
 pre > code {
@@ -24,7 +25,7 @@ pre > code {
     white-space: pre; 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .doc-container {
         margin: 2rem 0;
         border-left: none;
