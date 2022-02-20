@@ -1,8 +1,19 @@
+html {
+    font-family: arial,sans-serif;
+}
+
+.home-container {
+    width: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .home-header {
     position: relative;
-    top: 15vh;
-    margin: 0 10vw;
+    margin: auto;
     text-align: center;
 }
 
