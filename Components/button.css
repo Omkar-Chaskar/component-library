@@ -23,17 +23,17 @@ button {
  border: none;
  outline: none;
  cursor: pointer;
+ padding: 0.5rem ;
 }
 
 .button {
     position: relative;
-    padding: 0.5rem 2rem;
     margin: 0.5rem;
+    min-width: fit-content;
 }
 
 .button-header {
-    font-size: 70%;
-    width: 6rem;
+    font-size: 1rem;
 }
 
 .button-white {
@@ -57,25 +57,24 @@ button {
 
 .button-primary {
   color: var(--primary-color);
-  background-color: var(--primary);
+  background-color: var(--secondary-hover);
 }
 
 .button-primary:hover {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-  border: 2px solid var(--primary);
+  color: var(--primary-color);
+  background-color: var(--blue);
 }
 
 .button-secondary {
   color: var(--primary);
   background-color: var(--primary-color);
-  border : 2px solid var(--primary);
+  border : 1px solid var(--primary);
 }
 
 .button-secondary:hover {
   color: var(--primary-color);
   background-color: var(--secondary-hover);
-  border: 2px solid var(--primary);
+  border: 1px solid var(--primary);
 }
 
 .icon {
