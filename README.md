@@ -16,8 +16,6 @@ Copy paste the following links in your stylesheet and you are ready to go.
 
 ### CSS
 
-Paste be below link in the `<head>` section
-
 ```html
   @import 'https://getratha.netlify.app/styles.css';
 ```
