@@ -27,7 +27,7 @@
 
 .badge-button {
     font-size: inherit;
-    padding: 0.1rem 0.2rem;
+    padding: 0.5rem 1rem;
 }
   
 .badge-left {
@@ -46,11 +46,11 @@
 }
 
 .badge-left-button {
-    bottom: 10px;
-    left: -15px;
+    bottom: 15px;
+    left: -10px;
 }
 
 .badge-right-button {
-    bottom: 10px;
-    right: -15px;
+    bottom: 15px;
+    right: -10px;
 }
