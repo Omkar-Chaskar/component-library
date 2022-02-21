@@ -47,25 +47,25 @@
  /*   Avatar Border    */
   
   .border-dark {
-    border: 3px solid #000;
+    border: 1px solid #000;
   }
   
   .border-warning {
-    border: 3px solid yellow;
+    border: 1px solid yellow;
   }
   
   .border-success {
-    border: 3px solid green;
+    border: 1px solid green;
   }
   
   .border-danger {
-    border: 3px solid red;
+    border: 1px solid red;
   }
   
   .border-info {
-    border: 3px solid blue;
+    border: 1px solid blue;
   }
   
   .border-white {
-    border: 3px solid #fff;
+    border: 1px solid #fff;
   }
