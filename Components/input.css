@@ -17,13 +17,13 @@
 }
 
 .input-action{
-  margin: 5px 0 1rem 0; 
+  margin: 5px 0 0.1rem 0; 
   padding: 0.5rem;
   width: 100%;
 }
 
 .input-danger {
-  color: var(--danger);
+  color: var(--danger); 
 }
 
 .border-danger{
