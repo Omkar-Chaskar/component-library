@@ -6,13 +6,12 @@
   }
   
   .alert p {
-    margin: 1rem;
+    margin: 0.5rem;
   }
   
   .alert p span{
     position: relative;
     float: right;
-    top: 3px;
     cursor: pointer;
   }
   
@@ -43,7 +42,7 @@
   }
   
   .alert-info {
-    color: var(--info);
+    color: var(--blue);
     background-color: var(--info-bg);
   }
   
