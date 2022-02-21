@@ -24,7 +24,8 @@
 /*Notifiaction Stack*/
 
 .li-stack-border {
-  border: 2px solid var(--dark);
+  border: 1px solid var(--dark);
+  box-shadow: 3px 3px 4px var(--gray-300);
   border-radius: 10px;
   padding: 5px 5px;
   margin: 10px 5px;
