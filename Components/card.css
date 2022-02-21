@@ -88,12 +88,12 @@ right: 5px;
 }
 
 .card__secondary--space {
-  padding: 0.5rem 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .card__secondary {
   font-size: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .card__title {
