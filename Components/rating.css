@@ -1,0 +1,7 @@
+.checked {
+    color: var(--yellow);
+}
+
+.un-checked {
+    color: var(--secondary-color);
+}
