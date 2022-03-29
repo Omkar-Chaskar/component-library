@@ -1,0 +1,24 @@
+.model-container {
+  position: relative;
+}
+
+.model-pop-up {
+    border : solid  var(--blue) 1px;
+    margin : 1rem;
+    z-index : 9;
+    padding : 0.5rem 1rem;
+    display : flex;
+    flex-direction : column;
+    max-width : 40rem;
+  }
+  
+.flex-end {
+    display : flex;
+    justify-content : end;
+  }
+
+.top-fix {
+  position : absolute;
+  top : 0;
+  left : 10%; 
+}
