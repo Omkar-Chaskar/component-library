@@ -1,0 +1,13 @@
+.snackbar {
+    display : none;
+    position : fixed;
+    bottom: 1rem;
+    left : 1rem;
+  }
+  
+  .snackbar-msg {
+    background-color : var(--gray-700);
+    color : var(--primary-color);
+    padding : 1rem 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem var(--gray-600);
+  }
