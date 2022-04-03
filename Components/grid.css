@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    padding: 5px;
+}
+
+.col-2 {
+    grid-template-columns: auto auto;
+  }
+  
+.col-3 {
+    grid-template-columns: auto auto auto;
+  }
+  
+
+  /*Card example*/
+  .card-eg {
+    width : min-content;
+    height : max-xontent;
+    background-color: var(--gray-500);
+  }
+  
+  .card-img-eg {
+    width : 9rem;
+    height : 100%;
+  }
