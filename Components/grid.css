@@ -4,11 +4,11 @@
 }
 
 .col-2 {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, auto);
   }
   
 .col-3 {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, auto);
   }
   
 
