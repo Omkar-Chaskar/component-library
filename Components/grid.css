@@ -2,24 +2,15 @@
     display: grid;
     padding: 5px;
 }
-
-.col-2 {
-    grid-template-columns: repeat(2, auto);
-  }
-  
-.col-3 {
-    grid-template-columns: repeat(3, auto);
-  }
-  
-
+.col-2 {grid-template-columns: repeat(2, auto)}
+.col-3 {grid-template-columns: repeat(3, auto)}
   /*Card example*/
-  .card-eg {
+ .card-eg {
     width : min-content;
     height : max-xontent;
     background-color: var(--gray-500);
-  }
-  
-  .card-img-eg {
+}
+ .card-img-eg {
     width : 9rem;
     height : 100%;
-  }
+}
