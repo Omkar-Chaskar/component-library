@@ -7,7 +7,7 @@
   /*Card example*/
  .card-eg {
     width : min-content;
-    height : max-xontent;
+    height : max-content;
     background-color: var(--gray-500);
 }
  .card-img-eg {
